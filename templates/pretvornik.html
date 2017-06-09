@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Greatest converter. Ever.</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Let's Convert some Sh*t!</h1>
+
+    <p class="text-decor">Kaj pa bi pretvoril?</p><br>
+    <form method="post">
+        <input name="stevilo">
+        <select name="temperatura">
+            <option value="ctof">&#176;C -> &#176;F</option>
+            <option value="ftoc">&#176;F -> &#176;C</option>
+            <option value="ctok">&#176;C -> K</option>
+            <option value="ktoc">K -> &#176;C</option>
+        </select>
+        <button type="submit">Pretvori</button>
+    </form>
+    <br>
+    <p class="text-decor">Sporočilo: {{vnos}} {{ izpis }}{{ enota }}</p>
+</body>
+</html>
